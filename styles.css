@@ -33,6 +33,7 @@ ul, ol {
 li {
     margin-bottom: 10px;
 }
+
 section {
     padding: 20px;
     margin-bottom: 20px;
@@ -45,4 +46,27 @@ section:nth-child(odd) {
 
 section:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(200, 200, 200, 0.8);
+    background-image: url('img/arrow.svg');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: rgba(150, 150, 150, 1);
+    transform: scale(1.1);
 }
