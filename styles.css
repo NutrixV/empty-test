@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+ul, ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+section:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+section:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
